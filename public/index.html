@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+</head> <link rel="stylesheet" href="style.css">
+<body>
+    
+<main>
+
+    <!-- sing_up -->
+<div id="sing_up">
+<form action="">
+<label for="sing_up"><h1 style="font-weight: bold; color: rgb(255, 255, 255);background:linear-gradient(to bottom,#7164e1,#a2a4f3,#4e00ea) ;display: inline;"
+    
+    >Sing_Up</h1></label>
+<input type="text" name="s_user_name" id="s_user_name" placeholder="user_name" required>
+<!-- <input type="text"name="s_email" id="s_email" placeholder="email"> -->
+<input type="text"name="s_pasword" id="s_password" placeholder="password" required>
+<p style="color: red;" id="msg_sg"></p>
+<button type="submit" > sing up</button>
+</form>
+
+
+</div>
+
+
+<select  name="botton" id="option">
+    <option value="login">login</option>
+    <option value="sing_up"> sing_up</option>
+</select>
+
+
+
+<!-- login -->
+<div id="login">
+    <form action="">
+   <label for="login"><h1 style="font-weight: bold; color: rgb(255, 255, 255);background:linear-gradient(to bottom,#7164e1,#a2a4f3,#0033ff) ;display: inline;"
+    
+    >Login</h1></label> 
+
+    <input type="text"name="user_name" id="user_name"  placeholder="email" required>
+    <input type="text"name="pasword" id="password"  placeholder="password" required>
+    <button type="submit"> login</button>
+    <p style="color: red;" id="msg_log"></p>
+    </form>
+    
+
+      </div>
+    
+
+</main>
+
+</body>
+<script src="login.js"></script>
+</html>
